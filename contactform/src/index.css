@@ -22,6 +22,33 @@
     grid-template-columns: repeat(auto-fit , 250px);
 }
 
+.note.new {
+    background-color: rgb(29, 185, 252);
+}
+
+textarea {
+    border: none;
+    resize: none;
+    background-color: rgb(29, 185, 252);
+
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.save {
+    background-color: rgb(249, 203, 225);
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px ;
+}
+
+.save:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+
 .note-footer {
     display: flex;
     align-items: center;
