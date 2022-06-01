@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    white-space: pre-wrap;
 }
 
 .container {
@@ -53,4 +54,22 @@ textarea:focus{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: rgba(234, 234, 234, 0.776);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 1.5em;
+}
+
+.search  input {
+    border: none;
+    background-color: rgba(234, 234, 234, 0.776);
+}
+
+.search input:focus {
+    outline: none;
 }
